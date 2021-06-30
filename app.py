@@ -2,7 +2,7 @@ import streamlit as st
 st.title('CALCULATOR ')
 a=st.text_input('enter first number')
 b=st.text_input('enter second number')
-select=st.selectbox("optons",("ADDITION","SUBTRACTION","MULTIPLICATION","DIVISION"))
+select=st.selectbox("options",("ADDITION","SUBTRACTION","MULTIPLICATION","DIVISION"))
 if select=="ADDITION":
   calc=int(a)+int(b)
 if select=="SUBTRACTION":
